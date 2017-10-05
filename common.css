@@ -1,0 +1,92 @@
+div#left {
+	display: flex;
+	float: left;
+	background-color: #a4c7d8;
+	width: 18%;
+	text-align: center;
+}
+
+div#right {
+	display: flex;
+	width: 100%;
+	position: relative;
+
+	background-color: #f2f2f2;
+	height: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+div#leftpanel {
+	padding: 10px;
+	text-align: center;
+	
+	width: 100%;
+	height: inherit;
+	text-align: center;
+	background-color: inherit;
+}
+
+div#main {
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	background-color: inherit;
+	min-height: 650px;
+}
+
+input[type=submit]{
+	padding: 10px;
+	border-radius: 4px;
+	border: none;
+	height: 45px;
+	width: 300px;
+	background-color: #348e9e; /*#4CAF50*/
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	margin: 5px;
+}
+
+input[type=submit] {
+	width: 100px;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 2px;
+	max-height: 30px;
+	border-radius: 2px;
+}
+
+input[type=submit]:hover {
+	background-color: #3aa0b2; /*#a4c7d8*/ 
+}
+
+a.leftpanel {
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+}
+
+a.leftpanel:hover {
+	color: #348e9e;
+}
+
+li.leftpanel {
+	margin: 10px;
+}
+
+ul#leftpanel {
+	list-style-type: none;
+}
+
+.user-name {
+	font-family: calibri;
+	font-size: 20px;
+}
+
+div#logo {
+	position: fixed;
+	left: 5px;
+	top: 550px;
+	z-index: 2;
+}

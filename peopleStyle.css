@@ -1,0 +1,33 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	align-items: stretch;
+}
+
+div.userCardContainer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+	background-color: inherit;	
+}
+div.userCard {
+	margin: 10px;
+	background-color: #60b5c4;
+	height: 190px;
+	width: 160px;
+	padding-top: 10px;
+	border-radius: 10px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
+	font-family: arial;
+	font-size: 22px;
+}
+

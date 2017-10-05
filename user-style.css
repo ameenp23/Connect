@@ -1,0 +1,79 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+
+}
+
+body {
+	display: flex;
+	flex-flow: column;
+	align-items: stretch;
+}
+
+div#mainContainer {
+	min-height: 650px;
+	display: flex;
+	align-items: stretch;
+}
+
+div.post {
+	text-align: left;
+	width: 90%;
+	padding: 10px 50px 10px 50px;
+	background-color: #60b5c4;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+table.post {
+	text-align: left;
+	width: 99%;
+	padding: 10px 50px 10px 50px;
+	background-color: #60b5c4;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+td.postheader {
+	text-align: left;
+}
+
+div.postheader {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	
+}
+
+div.postbody {
+	margin: 10px;
+}
+
+div#newpost {
+	padding-top: 20px;
+}
+
+textarea#newpost {
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #f2f2f2;
+	border: none;
+	min-height: 80px;
+	font-size: 18px;
+	margin: 5px;
+	resize: none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+     opacity: 0.7;
+}
+
+p.post {
+	font-family: candara;
+	font-size: 18px;
+}

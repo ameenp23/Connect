@@ -1,0 +1,39 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+
+}
+
+body {
+	display: flex;
+	flex-flow: column;
+	align-items: stretch;
+}
+
+div#mainContainer {
+	min-height: 650px;
+	display: flex;
+	align-items: stretch;
+}
+
+table.post {
+	text-align: left;
+	width: 99%;
+	padding: 10px 50px 10px 50px;
+	background-color: #60b5c4;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+td.postheader {
+	text-align: left;
+}
+
+p.post {
+	font-family: candara;
+	font-size: 18px;
+}
